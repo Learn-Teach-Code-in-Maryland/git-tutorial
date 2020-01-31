@@ -1,10 +1,15 @@
 Description:
 
-Learn the basics of Git, a program for version control
+Learn the basics of Git, used for recording the revision history of
+computer code.  In this NNN-hour tutorial, you'll learn what revision
+control is used for, create your first repository, make and record
+changes in the repository, and publish your changes to Github.
 
-(For this program, it'some preparation is strongly recommended before the session.
-1) Create an account for yourself on github.com.
-2) Bring a laptop with GitHub Desktop (https://desktop.github.com/) installed.
+For this session, some preparation is strongly recommended: 1) Create
+an account on github.com.  2) Bring a laptop with GitHub Desktop
+(https://desktop.github.com/) installed.
+
+
 
 Topics to cover:
 
@@ -110,3 +115,5 @@ Git web page: https://git-scm.com/
 Pro Git: https://git-scm.com/book/en/v2
 
 O'Reilly Version Control with Git
+
+Interview with Junio Hamano: https://www.youtube.com/watch?v=qs_xS1Y6nGc
