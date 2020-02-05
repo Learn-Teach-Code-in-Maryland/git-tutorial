@@ -9,8 +9,6 @@ For this session, some preparation is strongly recommended: 1) Create
 an account on github.com.  2) Bring a laptop with GitHub Desktop
 (https://desktop.github.com/) installed.
 
-
-
 Topics to cover:
 
 Introduction to version control
@@ -36,14 +34,24 @@ Introduction to version control
 Tutorial
 ========
 
+Installation
+============
+
+git-scm.com for MacOS and Linux
+
+gitforwindows.org for Windows
+
+git config --global user.name "John Doe"
+git config --global user.email myemail@example.com
+git config --global core.editor notepad/other editor
+
+
 git clone
   Copies a repository from a server
 
 Exercise:
-  Check a copy of the git-tutorial repository
+  Check out a copy of the git-tutorial repository
   Look at the history
-
-
 
 git log
 git show
@@ -117,3 +125,18 @@ Pro Git: https://git-scm.com/book/en/v2
 O'Reilly Version Control with Git
 
 Interview with Junio Hamano: https://www.youtube.com/watch?v=qs_xS1Y6nGc
+
+Video intro by Giles McMullen
+(advertisement for a git course): https://www.youtube.com/watch?v=nCI4DxAF3Ak
+
+Get Started with Git by David Baumgold
+https://pyvideo.org/pycon-us-2016/david-baumgold-get-started-with-git-pycon-2016.html
+
+Git: A Peek Under the Hood by Clara Bennett
+https://pyvideo.org/pycon-us-2016/clara-bennett-git-a-peek-under-the-hood-pycon-2016.html
+
+Using Git and GitHub to safely store your code by Matt Layman
+https://pyvideo.org/python-frederick/using-git-and-github-to-safely-store-your-code.html
+
+Git in Control, Version Control and How it Could save Your Life by Rachell Calhoun
+https://pyvideo.org/djangocon-us-2016/git-in-control-version-control-and-how-it-could-save-your-life.html
