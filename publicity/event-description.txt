@@ -1,5 +1,5 @@
 
-Learn, Tech, Code:
+Learn, Teach, Code:
 
 This monthly N-hour tutorial will present a short introduction to a
 topic in computer coding and software development, aimed at adults who
