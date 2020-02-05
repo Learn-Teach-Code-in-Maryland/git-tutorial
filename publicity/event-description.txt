@@ -1,0 +1,21 @@
+
+Learn, Tech, Code:
+
+This monthly N-hour tutorial will present a short introduction to a
+topic in computer coding and software development, aimed at adults who
+are taking an online course or are curious about computer programming.
+In each session, you'll learn some of the basics and then try simple
+exercises and problems. Be sure to bring your own WiFi-equipped laptop
+to participate.
+
+March 28: Learn to use Git, used for recording the revision history of
+computer code, and explore the Github web site used to share code and
+collaborate on its development.
+
+April 25: Get an introduction to relational databases and SQL by
+searching and managing data using the PostgreSQL database.
+
+May 30: learn elements of the Python programming language.  This
+session will start with the attendees voting on which problem to
+tackle. After a short introduction to the chosen topic, participants
+will then start working on their own solutions.
