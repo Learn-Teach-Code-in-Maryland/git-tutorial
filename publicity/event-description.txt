@@ -1,21 +1,38 @@
 
 Learn, Teach, Code:
 
-This monthly N-hour tutorial will present a short introduction to a
-topic in computer coding and software development, aimed at adults who
-are taking an online course or are curious about computer programming.
-In each session, you'll learn some of the basics and then try simple
-exercises and problems. Be sure to bring your own WiFi-equipped laptop
-to participate.
+June:
 
-March 28: Learn to use Git, used for recording the revision history of
-computer code, and explore the Github web site used to share code and
-collaborate on its development.
+Whether a beginner coder or looking to expand your skills, all adults
+who are curious about computer programming are welcome for this
+workshop. Each month there will be a short introduction to a topic in
+coding followed by a hands-on activity. This month we'll be covering
+Git, used for recording the revision history of computer code, and the
+Github web site used to share code.  Please bring your own wi-fi
+enabled laptop.
 
-April 25: Get an introduction to relational databases and SQL by
-searching and managing data using the PostgreSQL database.
+July:
 
-May 30: learn elements of the Python programming language.  This
-session will start with the attendees voting on which problem to
-tackle. After a short introduction to the chosen topic, participants
-will then start working on their own solutions.
+Whether a beginner coder or looking to expand your skills, all adults
+who are curious about computer programming are welcome for this
+workshop. Each month there will be a short introduction to a topic in
+coding followed by a hands-on activity. This month we'll be covering
+relational databases and SQL by searching and managing data using the
+PostgreSQL database. Please bring your own wi-fi enabled laptop.
+
+August:
+
+Whether a beginner coder or looking to expand your skills, all adults
+who are curious about computer programming are welcome for this
+workshop. Each month there will be a short introduction to a topic in
+coding followed by a hands-on activity. This month we'll be covering
+the basic elements of the Python programming language. Please
+bring your own wi-fi enabled laptop.
+
+Skeleton:
+
+Whether a beginner coder or looking to expand your skills, all adults who
+are curious about computer programming are welcome for this workshop. Each
+month there will be a short introduction to a topic in coding followed by a
+hands-on activity. This month we'll be covering XXX. Please bring your
+own wi-fi enabled laptop.
