@@ -140,3 +140,11 @@ https://pyvideo.org/python-frederick/using-git-and-github-to-safely-store-your-c
 
 Git in Control, Version Control and How it Could save Your Life by Rachell Calhoun
 https://pyvideo.org/djangocon-us-2016/git-in-control-version-control-and-how-it-could-save-your-life.html
+
+CMU notes on git:
+https://www.cs.cmu.edu/~07131/f19/topics/git/
+
+MIT Missing Semester of CS Education:
+https://missing.csail.mit.edu/
+
+Git lecture: https://missing.csail.mit.edu/2020/version-control/
