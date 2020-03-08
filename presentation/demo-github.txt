@@ -1,0 +1,38 @@
+Github Demo:
+
+Show git-tutorial repo:
+
+https://github.com/numpy/numpy
+
+First, the code section:
+
+22500 commits -- list of commits
+
+* click on a commit: show the diff
+
+Branches: lists the active branches
+
+Contributors: shows who can contribute to the software.
+Pulse: rate of recent changes
+
+You can create a repository & host it, & just use it for yourself,
+but Github is also intended to help a team of people coordinate.
+Features for this: tracking bug reports, or issues; and pull requests,
+diffs that have been submitted for incorporation in the software.
+
+First, issue tracking.
+
+Show list of issues.
+Click on an issue -- show discussion.
+This is life for professionals -- looking at tickets and discussing them.
+
+
+
+
+
+Look at a PR:
+show the conversation.
+Files changed: is the diff.
+Commits: shows the individual commits making up the change.
+Checks (an advanced feature): can configure automated checks like
+running tests, syntax checks.
