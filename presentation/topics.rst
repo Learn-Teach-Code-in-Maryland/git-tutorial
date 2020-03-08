@@ -65,6 +65,8 @@ git commit
 
 git branch
 git switch
+
+
 git push
 git pull
 
@@ -120,17 +122,15 @@ Further References
 
 Git web page: https://git-scm.com/
 
-Pro Git: https://git-scm.com/book/en/v2
+Books:
 
-O'Reilly Version Control with Git
+Pro Git: https://git-scm.com/book/en/v2
+O'Reilly: Version Control with Git
 
 Interview with Junio Hamano: https://www.youtube.com/watch?v=qs_xS1Y6nGc
 
 Video intro by Giles McMullen
 (advertisement for a git course): https://www.youtube.com/watch?v=nCI4DxAF3Ak
-
-Get Started with Git by David Baumgold
-https://pyvideo.org/pycon-us-2016/david-baumgold-get-started-with-git-pycon-2016.html
 
 Git: A Peek Under the Hood by Clara Bennett
 https://pyvideo.org/pycon-us-2016/clara-bennett-git-a-peek-under-the-hood-pycon-2016.html
@@ -148,3 +148,6 @@ MIT Missing Semester of CS Education:
 https://missing.csail.mit.edu/
 
 Git lecture: https://missing.csail.mit.edu/2020/version-control/
+
+Get Started with Git by David Baumgold (PyCon 2016 3-hour lecture)
+https://pyvideo.org/pycon-us-2016/david-baumgold-get-started-with-git-pycon-2016.html
