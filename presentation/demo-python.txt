@@ -1,0 +1,51 @@
+
+Here's a copy of the source code for the interpreter for the Python
+programming language that I've already downloaded.
+
+Git manages 'repositories' that contain the complete history of a
+collection of files.  This is called 'cloning a copy of the
+repository'.
+
+Show log going back into history
+
+History: series of changes to the files.  Called 'commits' -- can be
+both a noun and a verb.
+
+Scroll ahead to initial commit.  (Aug 9 1990)
+
+Parts of a commit:
+
+* unique commit ID -- a 40-character string of numbers and letters
+* Author info: name and e-mail
+* Date of the commit
+* An explanatory commit message.
+
+Commit messages can be a single line, or a paragraph.
+10cd00a9 -- has a little essay.
+
+Let's pick a commit and examine a change:
+git show 559e7f165ad03731e6bc2211c0e6d8d9c02fb549
+
+The difference is displayed in a special format (also called a
+'diff' or a 'patch').
+
+It shows the names of the files being changed -- a/ and b/
+are old and new, and the rest is the path within the repo.
+
+The numbers of the lines being changed;
+several lines of context for the change
+
+-: lines being removed
++: lines being added
+
+git blame Lib/random.py:
+shows the commit ID/author/date for each line.
+
+Checkout b2395ebd517b55fda1019c649b060e5180d0cdcc from 1998.  Look at
+Misc/HISTORY and notice it's changed.
+
+git checkout master -- back to the current code.
+
+Does storing this take a lot of space?  It's not too bad!  Python runs
+back to 1990, and its entire repository is 950Mb (just under a
+gigabyte).  This is about 15 minutes of HD video.

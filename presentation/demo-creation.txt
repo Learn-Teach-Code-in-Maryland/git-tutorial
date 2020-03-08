@@ -1,0 +1,112 @@
+
+Command-line usage
+==================
+
+git alone: displays a list of common commands
+
+Running stuff from the command-line:
+Git provides a bunch of subcommands, all invoked w/ 'git subcmd'.
+Also takes options, specified by -- + option name; often takes an argument.
+
+For example:
+
+  git --help
+  git --version
+
+  git config --global user.name "Andrew K"
+  git config --global user.email amk@amk.ca
+
+git config --global core.editor
+
+
+Creating a repository
+=====================
+
+Change into the travel directory.
+Run 'git init'
+
+It will create a .git subdirectory.
+
+git status -> no commits yet
+git log -> fatal -- no commits yet.
+
+Basic editing and committing
+============================
+
+Open log.txt in your editor.
+
+Type "States I've been:" and then a bulleted list of states.
+Add 4-6 states and then stop.
+
+git status
+git add log.txt
+git status again
+
+Edit the file, adding more states
+
+git status -> not staged for commit
+git diff   -> show the change
+git add log.txt
+git status
+
+Discuss the working directory, the index, and committing
+
+ git diff --staged
+
+ Show and discuss slide from presentation
+
+git commit
+
+Discarding changes
+==================
+
+Edit once again (maybe changing the first 2-3 states to their state codes)
+Look at the diff & decide the change is bad.
+Use 'git checkout <file>' to get rid of the change.
+
+Travelling in time
+==================
+
+git log to look at the history
+git checkout <commit id>
+git checkout master
+
+
+Branching and Merging
+=====================
+
+Create an add-provinces branch
+  git branch add-provinces
+  git branch   # see current branch
+  git switch add-provinces  # to
+  git branch   # see that we've switched branches
+
+Edit log.txt and at the bottom add a list of Canadian provinces we've been to.
+
+git add ; git commit it
+
+git switch master
+
+Look at log.txt; notice that the provinces are no longer here.
+
+git merge add-provinces      # This should merge successfully
+
+
+Merge Conflicts
+===============
+
+Let's create another branch.  Create an add-countries branch
+  git branch add-countries
+  git switch add-countries
+
+Edit log.txt and at the bottom add a list of countries we've been to.
+
+git switch master
+Edit log.txt; let's sort all of our lists.
+Commit this change.
+
+git merge add-countries
+You get a conflict.
+Edit log.txt; discuss the conflict markers <<<, ===, >>>
+
+This completes the git demonstration
