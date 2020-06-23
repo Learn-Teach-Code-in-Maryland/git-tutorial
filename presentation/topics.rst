@@ -151,3 +151,39 @@ Git lecture: https://missing.csail.mit.edu/2020/version-control/
 
 Get Started with Git by David Baumgold (PyCon 2016 3-hour lecture)
 https://pyvideo.org/pycon-us-2016/david-baumgold-get-started-with-git-pycon-2016.html
+
+
+
+Github
+======
+
+So far we've just been committing & looking at history locally.
+
+Git can push and pull a branch, with all its commits, between your
+repo and a remote server.
+
+Concepts:
+
+remotes:
+  The URL for a remote server; given a short name.
+
+git remote -v
+-> git remote -v
+origin	git@github.com:Learn-Teach-Code-in-Maryland/git-tutorial.git (fetch)
+origin	git@github.com:Learn-Teach-Code-in-Maryland/git-tutorial.git (push)
+
+Adding a remote:
+
+git remote add <name> <url>
+
+git push <remote> <branch-name>
+
+<slide>: Abstract graph
+
+In theory you could have a completely decentralized structure:
+I push branches 1 and 2 to Alice's server;
+Alice makes some changes and pushes to Bob's, who revises and
+pushes back to Alice's.
+
+In practice, we use centralized services like Github / Gitlab /
+Bitbucket.

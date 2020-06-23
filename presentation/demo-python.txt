@@ -6,6 +6,21 @@ Git manages 'repositories' that contain the complete history of a
 collection of files.  This is called 'cloning a copy of the
 repository'.
 
+Command-line usage
+==================
+
+git alone: displays a list of common commands
+
+Running stuff from the command-line:
+
+Git provides a bunch of subcommands, all invoked w/ 'git subcmd'.
+Also takes options, specified by -- + option name; often takes an argument.
+
+For example:
+
+  git --help
+  git --version
+
 Show log going back into history
 
 History: series of changes to the files.  Called 'commits' -- can be

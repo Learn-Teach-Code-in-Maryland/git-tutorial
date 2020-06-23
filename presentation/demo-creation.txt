@@ -78,7 +78,7 @@ Branching and Merging
 Create an add-provinces branch
   git branch add-provinces
   git branch   # see current branch
-  git switch add-provinces  # to
+  git switch add-provinces
   git branch   # see that we've switched branches
 
 Edit log.txt and at the bottom add a list of Canadian provinces we've been to.
@@ -90,6 +90,9 @@ git switch master
 Look at log.txt; notice that the provinces are no longer here.
 
 git merge add-provinces      # This should merge successfully
+
+Branches are easy to create, easy to switch between, and easy to merge.
+Not all VC systems were like this.
 
 
 Merge Conflicts
@@ -108,5 +111,6 @@ Commit this change.
 git merge add-countries
 You get a conflict.
 Edit log.txt; discuss the conflict markers <<<, ===, >>>
+Resolve with 'git add' and 'git commit'.
 
 This completes the git demonstration

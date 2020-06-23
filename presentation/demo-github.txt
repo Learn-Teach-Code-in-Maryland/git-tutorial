@@ -1,6 +1,6 @@
 Github Demo:
 
-Show git-tutorial repo:
+Show a repository repo:
 
 https://github.com/numpy/numpy
 
@@ -25,9 +25,6 @@ First, issue tracking.
 Show list of issues.
 Click on an issue -- show discussion.
 This is life for professionals -- looking at tickets and discussing them.
-
-
-
 
 
 Look at a PR:
